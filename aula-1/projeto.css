@@ -1,0 +1,44 @@
+body{
+    font-family: 'Open-Sans', arial, sans-serif;
+    color: #666;
+    line-height: 1.7;
+}
+
+.main-header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 35%;
+    padding: 124px 54px 72px;
+    box-sizing: border-box;
+    background-image: url(imagens/overlay.png), url(imagens/bg.jpg);
+    background-position: left top;
+    background-size: auto, cover;
+    text-align: right;
+}
+
+.main-header-title{
+    font-size: 25px;
+    line-height: 1.5;
+    color: white;
+    font-weight: normal;
+    color: rgba(255, 255, 255, .5)
+}
+.main-header-title strong{
+    color: white;
+    font-weight: normal;
+}
+.main-header-link{
+    color: inherit;
+}
+.main-header-link:houver{
+    color:#49bf9d;
+}
+
+.main-content{
+    width: 65%;
+    margin-left: 35%;
+    padding: 124px 54px 72px;
+    box-sizing: border-box; 
+}

@@ -1,0 +1,90 @@
+<html lang="pt-br">
+    <head>
+        <title> form </title>
+        <meta charset="utf-8">
+        <meta name="author" content="Arthur">
+        <meta name="description" content="lista de documentos">
+        <meta name="keywords" content="html5, tecnologia">  
+    </head>
+    <body>
+        <h1>Exemplo formulario</h1>
+
+        <form action="#" method="POST" class=formLogin>
+            <fieldset>
+                <legend>Dados pessoais</legend>
+
+                <label>Email</label>
+                <input type="email">
+
+                <br>
+
+                <label>Numero de filhos</label>
+                <input type="number" min="0" max="1000">
+
+                <br>
+
+                <label>nascimento</label>
+                <input type="date" min="1500" max="2021">
+
+                <br>
+
+                <p>Sexo:</p>
+
+                <label>
+                    <input type="radio" name="sexo"
+                    value="M">
+                    Masculino
+                </label>
+                <label>
+                    <input type="radio" name="sexo"
+                    value="F">
+                    Feminino
+                </label>
+                <br>
+                <input type="hidden" name="expira" value="2018-12-13">
+
+
+                <label> Estado</label>
+
+                <br>
+                <select name="estado">
+                    <option value="SP">São Paulo</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="MG">Minas Gerais</option>
+                </select>
+                </fieldset>
+
+                <fieldset>
+
+                    <legend>Área de interesse</legend>
+                    <label><input type="checkbox" name="html" value="html">HTML</label>
+                    <label><input type="checkbox" name="css" value="css">CSS</label>
+                    <label><input type="checkbox" name="JS" value="JS">Javascript</label>
+
+
+                </fieldset>
+
+                <fieldset>
+                    <legend>Mensagem</legend>
+                    <textarea style="resize: none" name="msg" cols="30" rows="10">
+                    </textarea>
+
+                    <textarea style="resize: none" name="contrato" cols="30" rows="10"
+                    readonly>AQUI ENTRA O TEXTO DE CONTRATO QUE PRECISA SER ACEITO
+                </textarea>
+
+                <label><input type="checkbox">Li e aceito</label>
+
+                <input type="range" min="0" max="10" step="2">
+                <input type="time"> 
+                <input type="color">
+                </fieldset>
+
+                
+                <br>
+                <input type="submit" value="mandar">
+                <input type="button" value="botão">
+                <input type="reset" value="reset">
+            
+        </form>
+    </body>

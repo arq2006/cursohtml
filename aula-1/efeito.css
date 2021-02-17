@@ -1,0 +1,21 @@
+html, body{
+    height: 100%;
+}
+
+
+body{
+    background-image: linear-gradient(to right top, red, blue)
+}
+
+#radius{
+    background: orange;
+    width: 200px;
+    height: 200px;
+    margin: 50px auto;
+
+    border-radius:50px 100px / 100px 50px;
+}
+
+h1{
+    text-align:center;
+}

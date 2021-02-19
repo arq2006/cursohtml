@@ -125,6 +125,13 @@ textarea{
     font-size: .9em;
     display: inline-block;
     box-sizing: border-box;
+    cursor: pointer;
+    transition: all .5;
+    width: auto;
+}
+.button-default:hover{
+    background-color: #5ddeb9;
+    border-color: transparent;
 }
 
 .button-default-stroke{
@@ -132,7 +139,11 @@ textarea{
     border-color: #efefef;
     color: inherit;
 }
-
+.button-default-stroke:hover{
+    color: #49bf9d;
+    border-color:#49bf9d;
+    background-color: white;
+}
 .button-default-small{
     font-size: .65em;
 }
@@ -227,6 +238,15 @@ textarea{
 .img-left{
     float: left;
 }
+.main-footer{
+    position:fixed;
+    bottom: 0;
+    width: 35%;
+    left: 0;
+    padding: 0px 54px 72px 0;
+    box-sizing: border-box;
+    text-align: right;
+}
 
 .row{
     overflow: auto;
@@ -253,4 +273,14 @@ textarea{
 }
 .col-2{
     display: inline-block;
+}
+.cold1-3:nth-child(3n - 2) {/* 1, 4, 7*/
+    margin-right: 2%;
+}   
+.cold1-3:nth-child(3n){/* 3, 6, 9*/
+    margin-left: 2%;
+}
+
+.col2-3 + .col1-3, .cold1-3 + .cold2-3{
+    margin-left: 2%;
 }

@@ -9,6 +9,15 @@ a{
     text-decoration: none;
     border-bottom: 1px dotted;
 }
+
+a i{
+    color: #49bf9d;
+    text-decoration: none;
+    border-bottom: none;
+    display: inline-block;
+    font-size: 30px;
+    list-style-type: none;
+}
 a:hover{
     border-bottom-color: transparent;
 }
@@ -93,6 +102,10 @@ li{
     display: inline-block;
     font-size: 2em;
     color: #49bf9d;
+}
+
+.ul-noballets{
+    list-style-type: none;
 }
 input, label, textarea{
     display: inline-block;
@@ -242,7 +255,7 @@ textarea{
     position:fixed;
     bottom: 0;
     width: 35%;
-    left: 0;
+    left: 0;;
     padding: 0px 54px 72px 0;
     box-sizing: border-box;
     text-align: right;

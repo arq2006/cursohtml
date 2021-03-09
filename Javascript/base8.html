@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Logica de Programação Javascript</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <h1>Logica de Programação com Javascript</h1>
+
+        <script>
+            //pedir pro usuario digitar um numero
+                var nt1 = prompt("Digite a nota 1° bi");
+                nt1 = parseFloat(nt1);
+
+            //pedir pro usuario digitar outro numero
+                var nt2 = prompt("Digite a nota 2° bi");
+                nt2 = parseFloat(nt2);
+            //nota nescessaria pra passar é 5
+            //calcular media
+
+                var media = (nt1 + nt2) / 2;
+                var resulado;
+
+            //nota 0 é reprovado automaticamente 
+            //se media for menor que 5, reprovado, senão aprovado
+                if((nt1 ===0 || nt2 ===0) || media < 5){
+                    resulado = "reprovado";
+                } else{
+                    resulado = "aprovado";
+
+                }
+                
+            //mostrar resultado
+                alert(resulado);
+            
+
+
+                
+           
+        </script>
+    </body>
+</html>   

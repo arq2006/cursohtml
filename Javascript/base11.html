@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Logica de Programação Javascript</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <h1>Logica de Programação com Javascript</h1>
+
+        <script>
+           
+            //começar com o ano em 1004
+           var ano = 1004;
+
+            //separar os anos bissextos e os não bissextos
+           var div4 = false;
+           var div100 = false;
+           var div400 = false;
+           var bissexto = false;
+           
+            //colocar-los tirando os multiplos de 100 e deixando os de 400 e os de 4
+            while(ano <= 2030){
+
+                div4 = ano % 4 == 0;
+                div100 = ano % 100 != 0;
+                div400 = ano % 400 == 0;
+                bissexto = (div4 && div100) || div400;
+                if(bissexto){
+                    document.write(ano + '<br>');
+                }
+                ano += 4;
+
+            }
+           
+        </script>
+    </body>
+</html>   

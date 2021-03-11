@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Logica de Programação Javascript</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <h1>Logica de Programação com Javascript</h1>
+        <p>
+            <input type="number" id="n1"> &nbsp; 
+            <input type="number" id="n2">
+        </p>
+        <button onclick="soma()">+</button>
+        <button onclick="subtração()">-</button>
+        <button onclick="divizão()">/</button>
+        <button onclick="multiplicaçao()">x</button>
+        <p>
+           O resultado é: <div id="resultado"></div>
+       </p>
+
+        
+
+        <script>
+            
+            var resultado = document.getElementById('resultado');
+            var txtn1 = document.getElementById('n1');
+            var txtn2 = document.getElementById('n2');
+
+            function soma(){
+                // var n1 = prompt("digite o numero para somar");
+                // n1 = parseFloat(n1);
+                var n1 = parseFloat(txtn1.value);
+                var n2 = parseFloat(txtn2.value);
+                resultado.innerHTML = n1 + n2;                
+            }
+            function subtração(){
+                // var n2 = prompt("digite o numero para subtrair");
+                // n2 = parseFloat(n2);
+                var n1 = parseFloat(txtn1.value);
+                var n2 = parseFloat(txtn2.value);
+                resultado.innerHTML = n1 - n2;
+                
+            }
+            function divizão(){
+                // var n3 = prompt("digite o numero para dividir");
+                // n3 = parseFloat(n3);
+                var n1 = parseFloat(txtn1.value);
+                var n2 = parseFloat(txtn2.value);
+                resultado.innerHTML = n1 / n2;
+            }
+            function multiplicaçao(){
+                //var n4 = prompt("digite o numero para multiplicar");
+                //n4 = parseFloat(n4);
+                var n1 = parseFloat(txtn1.value);
+                var n2 = parseFloat(txtn2.value);
+                resultado.innerHTML = n1 * n2;
+            }
+
+                      
+        </script>
+    </body>
+</html>   
+  

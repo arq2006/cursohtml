@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Logica de Programação Javascript</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <h1>Logica de Programação com Javascript</h1>
+
+        <div id="output"></div>
+
+        <script>
+          var produto1 = new Object();
+          produto1.nome = "caneta";
+          produto1.preco = 2.2;
+          produto1.estoque = 10;
+
+          var msg = '';
+
+          msg += 'nome: ' + produto1.nome + '<br>';
+          msg += 'preco: ' + produto1.preco + '<br>';
+          msg += 'estoque' + produto1.estoque + '<br>';
+
+          document.querySelector('#output').innerHTML = msg;
+        </script>
+
+    </body>
+</html>

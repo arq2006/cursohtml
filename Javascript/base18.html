@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Logica de Programação Javascript</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <h1>Logica de Programação com Javascript</h1>
+        
+        <button onclick="mostrarArea()">Resultado da area</button>
+
+        <div id="output"></div>
+
+        <script>
+             //pedir pra digitar a altura 
+
+                var altura = prompt('Digite um altura');
+                altura = parseFloat(altura);
+                    //pedir pra digitar a largura
+
+                var largura = prompt('Digite a largura');
+                largura = parseFloat(largura);
+                
+            //mostrar a área total dos numeros de um retangulo
+
+            if(altura, largura){
+                
+                var area = calcularArea(altura, largura);
+
+                function mostrarArea(){
+                    document.querySelector("#output").innerHTML = "a área total é: " + area; 
+                }
+            
+                function calcularArea(){
+                    return altura * largura
+                } 
+
+                //se o dado for inválido
+                
+            } else {
+                alert("invalido");
+            }
+
+
+        </script>
+
+    </body>
+</html>

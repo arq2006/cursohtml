@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Curso Javascript Completo 2018</title>
+        <meta charset="utf-8">
+        
+        
+    </head>
+    <body>
+        <h1>Curso Javascript Completo 2018</h1> 
+
+
+        <script>
+
+            window.addEventListener('load', function(){
+                console.log('load disparado')
+            })()
+
+            
+            window.addEventListener('resize', function(e){
+                console.log('resize disparado');
+                console.log(e);
+            })()
+
+            
+            window.addEventListener('scroll', function(e){
+                console.log('scroll disparado');
+                console.log(e);
+                console.log('sccroll Y', pageYOffset);
+            })()
+
+            
+        </script>
+        
+    </body>
+    </html>

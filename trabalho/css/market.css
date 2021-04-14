@@ -1,0 +1,101 @@
+body{
+    font-family: Roboto,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #666;
+    line-height: 1.846;
+}
+
+.neworders{
+    background-color: transparent;
+    border: 3px solid;
+    width: 500px;
+    line-height: 15px;
+    font-size: 13px;
+}
+.title-o{
+    display: block;
+    letter-spacing: .1px;
+    font-size: 17px;
+    font-weight: 400;
+    margin: 0;
+    line-height: 16px;}
+
+.linkheader{
+    color: #2196F3;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+    -webkit-transition: all .2s;
+    -o-transition: all .2s;
+    transition: all .2s;
+}
+a {
+    background-color: transparent;
+}
+.subtitle{
+    font-size: 13px;
+    letter-spacing: .1px;
+    background: red;
+    padding-bottom: 20px
+}
+#pesquisa{
+    text-align: center;
+
+}
+.header{
+    text-align: top;
+    display: block;
+}
+.pesquisa-t{
+    overflow: auto;
+}
+.divside{
+    background: #4f4f4f;
+    display: inline-block;
+    padding-right: 146px;
+}
+.subtitle-h2{
+    font-size: 9px;
+    text-transform: uppercase ;
+    color: #bbb;
+    margin-left: 5px;
+}
+.ls-jp{
+    font-size: 13px;
+    color: #999;
+    line-height: 15px;
+}
+.sideleft{
+    font-size: 20px;
+    color: white;
+}
+
+.leftside{
+    left: 0;
+    width: 307px;
+    margin: 0;
+    padding-bottom: 60px;
+    z-index: 1037;
+    will-change: left;
+    font-size: 13px;
+    background-color: #E8E8E8;
+    border-right: 1px rgba(0,0,0,.07) solid;
+    background: #474747;
+    position: fixed;
+    top: 0;
+    height: 100%;
+    overflow: auto;
+    display: block;
+    box-sizing: border-box;
+    text-align: right;
+}
+.main-margin{
+    margin-left: 17%;
+}
+ul{
+    list-style: none;
+}
+.link-s, .link-l{
+    color: #2196F3;
+    font-size: 10px
+}
